@@ -1,0 +1,21 @@
+<!-- <div class="container">
+	{% for person in site.team %}
+    	<div class="text-center">
+					<img src="{{person.picture}}" alt="{{person.name}}" style="border:solid red">
+					 <p> {{person.name}} </p>
+    	</div>
+	{% endfor %}
+</div> -->
+<section id="team-container" class="container content-section text-center">
+	<h2>Our team</h2>
+	<div class="container">
+		<div class="row-fluid">
+			{% for person in site.team %}
+		  	<div class="col-sm-3 text-center portrait-div">
+					<img src="{{person.picture}}" alt="{{person.name}}">
+				  <p> {{person.name}} </p>
+				</div>
+		  {% endfor %}
+		</div>
+	</div>
+</section>

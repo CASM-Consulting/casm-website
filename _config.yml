@@ -1,8 +1,9 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: CASM Consulting LLP
+email: jeremyr@casmconsulting.co.uk
+url: www.casmconsulting.co.uk
+# Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+description: "CASM Consulting LLP"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -10,7 +11,7 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: CASM Consulting LLP
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -25,6 +26,22 @@ social:
   - title: github
     url: https://github.com/IronSummitMedia/startbootstrap
 
+team:
+  - name: Prof David Weir
+    picture: /img/davidw-small.jpg
+  - name: Dr Jeremy Reffin
+    picture: /img/jeremy-small.jpeg
+  - name: Jamie Bartlett
+    picture: /img/jamie-small.png
+  - name: Carl Miller
+    picture: /img/carl-small.jpg
+  - name: Simon Wibberley
+    picture: /img/simon-small.png
+  - name: Alex Krasodomski
+    picture: /img/alex-small.jpg
+  - name: Andy Robertson
+    picture: /img/andy-small.png
+
 # Build settings
-markdown: kramdown
+markdown: github
 permalink: pretty
