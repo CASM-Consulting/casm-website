@@ -3,7 +3,7 @@
 		<div class="flexbox-container">
 			{% for person in site.team %}
 				<div class="portrait-div text-center">
-		  		<img src="{{person.picture}}" alt="{{person.name}}">
+		  		<img src="{{person.picture}}" alt="{{person.name}}" class="imgshadow">
 				  <p> {{person.name}} </p>
 				</div>
 			{% endfor %}
