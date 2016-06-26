@@ -382,7 +382,7 @@ body {
 
 /*  http://stackoverflow.com/questions/6964794/soft-edges-using-css?lq=1 */
 .imgshadow {
-	box-shadow: 0px 0px 30px LavenderBlush ;
+	box-shadow: 0px 0px 20px LavenderBlush ;
 }
 
 /* http://stackoverflow.com/questions/25598728/irregular-bootstrap-column-wrapping */
